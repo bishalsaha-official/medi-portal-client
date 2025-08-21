@@ -9,7 +9,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar py-5 shadow-sm fixed z-10">
+        <div className="navbar md:py-5 md:px-5 bg-base-100 shadow-sm fixed z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,17 +22,17 @@ const Navbar = () => {
                 <Link className="btn btn-ghost text-xl">
                     <div className="flex items-center gap-3">
                         <img src={logo} className="w-10" alt="MediPortal" />
-                        <h3 className="font-bold text-[#3B3A3A]">Medi <span className="text-[#F7A582]">Portal</span></h3>
+                        <h3 className="font-bold">Medi <span className="text-[#F7A582]">Portal</span></h3>
                     </div>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-xl">
                     {links}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <Link to="/login" className="btn">Login</Link>
             </div>
         </div>
     );
