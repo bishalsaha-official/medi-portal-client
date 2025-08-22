@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import banner from '../../../assets/Home/banner.jpg'
+import banner from '../../../assets/Home/banner1.jpg'
 import doctor from '../../../assets/Home/doctor.png'
 
 const Banner = () => {
