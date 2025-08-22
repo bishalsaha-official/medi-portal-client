@@ -13,7 +13,7 @@ const Services = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-5 mt-10">
                 <div className="flex flex-col justify-center text-center p-5 shadow-sm shadow-[#aba7a5]">
                     <img src={Gastrology} className="w-28 mx-auto mb-5" alt="Gastrology" />
-                    <h3 className="text-[3B3A3A] font-semibold text-xl">Gastrology</h3>
+                    <h3 className="text-[3B3A3A] font-semibold text-xl">Gastroenterology</h3>
                 </div>
                 <div className="flex flex-col justify-center text-center p-5 shadow-sm shadow-[#aba7a5]">
                     <img src={Orthopedic} className="w-28 mx-auto mb-5" alt="Orthopedic" />
